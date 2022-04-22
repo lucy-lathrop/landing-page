@@ -1,8 +1,11 @@
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 header {
   background-color: #1F2937 ;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
@@ -14,6 +17,7 @@ h1 {
 h2 {
   color: #F9FAF8;
   font-size: 24px;
+  margin: 5px;
 }
 
 p {
@@ -24,4 +28,54 @@ p {
 ul {
   color: #E5E7EB;
   font-size: 18px;
+  list-style-type: none;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-container-one {
+  display: flex;
+  justify-content: space-around;
+}
+
+.links {
+  display: flex;
+  gap: 45px;
+}
+
+.header-container-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-container-three {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.header-one {
+  width: 450px;
+}
+
+.header-two {
+  width: 500px;
+}
+
+.image {
+  background-color: grey;
+  width: 500px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 10px 50px 10px;
+}
+
+button {
+  background-color: #3882F6;
+  width: 200px;
 }
